@@ -165,7 +165,6 @@ button { cursor: pointer; }
 .welcome-card__icon { display: grid; place-items: center; width: 58px; height: 58px; margin: 42px 0 17px; color: var(--cyan); background: rgba(139, 211, 223, .1); border: 1px solid rgba(139, 211, 223, .24); border-radius: 16px; }
 .welcome-card .eyebrow { display: inline-flex; align-items: center; gap: 6px; }
 .welcome-card h1 { margin: 13px 0 12px; color: var(--text-primary); font-size: clamp(31px, 5vw, 46px); letter-spacing: -1.7px; line-height: 1.04; }
-.welcome-card__message { max-width: 430px; margin: 0; color: var(--text-primary); font-size: 17px; line-height: 1.55; letter-spacing: -.2px; }
 .welcome-card__subtext { max-width: 385px; margin: 14px 0 0; color: var(--text-muted); font-size: 12px; line-height: 1.6; }
 .welcome-card__affirmation { margin: 12px 0 0; color: var(--accent); font-size: 12px; font-weight: 650; letter-spacing: .2px; }
 .welcome-card__cta { display: inline-flex; align-items: center; gap: 9px; margin-top: 28px; padding: 11px 17px; color: #102019; background: var(--green); border: 0; border-radius: 8px; font-size: 12px; font-weight: 750; box-shadow: 0 10px 25px rgba(131, 214, 176, .16); transition: transform .18s ease, background .18s ease; }

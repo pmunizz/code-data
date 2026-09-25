@@ -21,10 +21,6 @@ export function WelcomeScreen({ onEnter }: WelcomeScreenProps) {
         </div>
         <span className="eyebrow"><Sparkles size={13} /> SEU WORKSPACE DE CÓDIGO</span>
         <h1>Bem-vindo, Pedro.</h1>
-        <p className="welcome-card__message">
-          Mais um dia para transformar curiosidade em domínio,
-          ideias em código e grandes planos em conquistas.
-        </p>
         <p className="welcome-card__subtext">
           Seu conhecimento está esperando por você. Vamos construir algo incrível hoje?
         </p>
