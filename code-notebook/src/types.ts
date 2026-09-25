@@ -4,7 +4,6 @@ export type Language =
   | 'tsx'
   | 'python'
   | 'css'
-  | 'html'
 
 export interface Snippet {
   id: string
@@ -26,7 +25,6 @@ export const LANGUAGE_META: Record<Language, { label: string; extension: string;
   tsx: { label: 'React (TSX)', extension: '.tsx', color: '#61dafb' },
   python: { label: 'Python', extension: '.py', color: '#3e9b4f' },
   css: { label: 'CSS', extension: '.css', color: '#a56ee2' },
-  html: { label: 'HTML', extension: '.html', color: '#e26e6e' },
 }
 
 export const LANGUAGE_ORDER: Language[] = [
@@ -35,5 +33,4 @@ export const LANGUAGE_ORDER: Language[] = [
   'tsx',
   'python',
   'css',
-  'html',
 ]

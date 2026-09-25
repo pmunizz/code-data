@@ -78,21 +78,4 @@ const s = first(['a', 'b'])      // string | undefined`,
   border: 1px solid var(--color-accent);
 }`,
   },
-  {
-    title: 'HTML semântico em vez de div genérica',
-    language: 'html',
-    tags: ['padrão', 'semântica', 'acessibilidade'],
-    pattern:
-      'Usar a tag que descreve o papel do conteúdo (nav, main, article, aside) em vez de <div> para tudo ajuda leitores de tela, SEO e também quem lê o código depois — a estrutura já conta a história da página.',
-    code: `<body>
-  <nav>...</nav>
-  <main>
-    <article>
-      <h1>Título do post</h1>
-      <p>Conteúdo...</p>
-    </article>
-    <aside>Links relacionados</aside>
-  </main>
-</body>`,
-  },
 ]

@@ -8,7 +8,7 @@ não só o código, mas o **padrão de pensamento** por trás dele. Feito em Rea
 - Layout inspirado no VS Code: barra de atividades, sidebar em árvore (agrupada por linguagem),
   abas, editor com realce de sintaxe e barra de status.
 - Editor de código real (CodeMirror 6) com destaque de sintaxe para JavaScript, TypeScript,
-  TSX, Python, CSS e HTML.
+  TSX, Python e CSS.
 - Para cada estudo: título, linguagem, código, um campo de **"padrão de pensamento"** e tags.
 - Busca por título, tag ou conteúdo do padrão.
 - Autosave (debounced) enquanto você digita.

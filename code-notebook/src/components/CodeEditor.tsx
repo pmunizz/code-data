@@ -3,7 +3,6 @@ import { vscodeDark } from '@uiw/codemirror-theme-vscode'
 import { javascript } from '@codemirror/lang-javascript'
 import { python } from '@codemirror/lang-python'
 import { css } from '@codemirror/lang-css'
-import { html } from '@codemirror/lang-html'
 import type { Extension } from '@codemirror/state'
 import type { Language } from '../types'
 
@@ -19,8 +18,6 @@ function extensionsFor(language: Language): Extension[] {
       return [python()]
     case 'css':
       return [css()]
-    case 'html':
-      return [html()]
     default:
       return []
   }
