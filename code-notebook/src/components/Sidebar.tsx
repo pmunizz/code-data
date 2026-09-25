@@ -34,7 +34,7 @@ export function Sidebar({ snippets, activeId, onOpen, onNew, view, onViewChange,
             <span>workspace pessoal</span>
           </div>
         </div>
-        <button className="sidebar__new-btn" title="Novo estudo" onClick={onNew} aria-label="Novo estudo">
+        <button className="sidebar__new-btn" title="Novo estudo" onClick={() => onNew()} aria-label="Novo estudo">
           <FilePlus2 size={16} />
         </button>
       </div>
