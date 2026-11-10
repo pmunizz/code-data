@@ -2,7 +2,7 @@
 
 **Aplicação Full Stack | 2026**
 
-Aplicação web desenvolvida para organizar e disponibilizar uma biblioteca de códigos reutilizáveis, com funções, componentes e soluções de programação com responsabilidades bem definidas. Projeto desenvolvido com foco na otimização do tempo de desenvolvimento, redução de retrabalho e padronização de código. Utilizei IA como ferramenta de desenvolvimento (vibe coding) para construir uma primeira versão funcional em apenas 1 dia.
+Aplicação web desenvolvida para organizar e disponibilizar uma biblioteca de códigos reutilizáveis, com funções, componentes e soluções de programação com responsabilidades bem definidas. Projeto desenvolvido com foco na otimização do tempo de desenvolvimento, redução de retrabalho e padronização de código. 
 
 ### Tecnologias
 - React
@@ -16,4 +16,4 @@ Aplicação web desenvolvida para organizar e disponibilizar uma biblioteca de c
 - Implementei organização dos códigos por tags, facilitando a categorização, busca e reutilização em diferentes projetos.
 - Desenvolvi templates de escrita e documentação para padronizar a descrição e o entendimento de funções e componentes.
 - Implementei uma interface moderna inspirada no Visual Studio Code, com temas e recursos de formatação e apresentação de código.
-- Utilizei IA para acelerar a estruturação, implementação e resolução de problemas durante o desenvolvimento, mantendo a definição dos requisitos, revisão do código e validação das funcionalidades.
+
